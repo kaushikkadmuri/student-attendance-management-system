@@ -4,14 +4,11 @@ A full-stack attendance platform with a Django REST backend and a React + Vite f
 
 ## Overview
 
-This project is designed to manage student attendance workflows across multiple roles:
+This project is a student attendance management system built around four roles: Admin, Analyst, Counsellor, and Student.
 
-- Admin
-- Analyst
-- Counsellor
-- Student
+Admins handle the overall platform setup by managing operational users such as Analysts and Counsellors, and by maintaining Centres. Analysts manage batches and the structural data needed to organize students. Counsellors manage student records and oversee the students assigned to them. Students use their own dashboard to interact with the attendance system directly.
 
-The system includes modules for authentication, center management, batch management, student management, attendance tracking, and audit logs.
+Attendance is marked by students through the student dashboard. A student performs check-in and check-out from the frontend, and the system verifies attendance using the configured flow, including face verification and location validation where required. After marking attendance, students can view their daily status, attendance history, monthly attendance, and time-related statistics, while staff roles manage the data and structure that support this attendance process.
 
 ## Tech Stack
 
