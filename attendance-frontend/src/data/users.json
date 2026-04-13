@@ -1,0 +1,9 @@
+{
+  "admin": {
+    "email": "admin@gmail.com",
+    "password": "admin123",
+    "role": "admin"
+  },
+  "analysts": [],
+  "students": [{"email": "student1@gmail.com", "password": "student123"}, {"email": "student2@gmail.com", "password": "student456"}]
+}

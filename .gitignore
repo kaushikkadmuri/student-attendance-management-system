@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+venv/
+venv312/
+.venv/
+
+# Backend local config
+attendance-backend/.env
+
+# Frontend dependencies and builds
+attendance-frontend/node_modules/
+attendance-frontend/dist/
+
+# Logs
+*.log
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
